@@ -14,6 +14,6 @@
 	</button>
 </form>
 <div class="ui grid posts">
-	<app-article *ngFor="let articleInput of articles" [article]="articleInput">
+	<app-article *ngFor="let articleInput of sortedArticles()" [article]="articleInput">
 	</app-article>
 </div>
