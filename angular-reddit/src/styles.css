@@ -47,3 +47,7 @@ ul.ui.list li:before {
   width: 100%;
 }
 
+.voters>.item {
+  margin-right: 1em;
+}
+
